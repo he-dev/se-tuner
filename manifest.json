@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "SE-Tuner",
+    "description": "Provides various fixes and enhancements to SE pages.",
+    "version": "1.0.0",
+    "content_scripts": [{
+        "matches": [
+            "https://*.stackexchange.com/*"
+        ],
+        "js": [
+            "libs/jquery-3.2.1.min.js",
+            "main.js"
+        ]
+    }]
+}
